@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       # Here is the deployment action
     - name: Upload from public_html via FTP denne virker.
