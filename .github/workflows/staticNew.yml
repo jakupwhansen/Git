@@ -6,10 +6,6 @@ on:
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-
 jobs:
   # Single deploy job since we're just deploying
   deploy:    
@@ -23,5 +19,5 @@ jobs:
          username: junoeuro.dk
          password: pch2gyb3
          server-dir: git/
-         delete: true
+         delete: false
       
